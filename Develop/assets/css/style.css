@@ -13,16 +13,16 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-}
+} /*sets the padding, font, background color, and text color of the header. */
 
 header h1 {
     display: inline-block;
     font-size: 48px;
-}
+}/* Sets anything in header marked h1 to be 48px large and displayed inline.*/
 
 .seo {
     color: #d9dcd6;
-}
+} /*sets the color of this class's text to be this.*/
 
 header nav {
     padding-top: 15px;
@@ -30,16 +30,13 @@ header nav {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-header nav ul {
-    list-style-type: none;
-}
+}/* Sets the padding, margin, font, and font size. Also causes it to be pushed to the right.*/
 
 header nav ul li {
+    list-style-type: none;
     display: inline-block;
     margin-left: 25px;
-}
+}/* Sets the unordered list to have no bullets, sets the display to be inline block, and sets the left margin to 25px.*/
 
 a {
     color: #ffffff;
@@ -57,23 +54,26 @@ figure {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}/* Sets the image for "figure" to be the linked image with a height of 800px, and makes it as wide as the display. Also sets a margin at the bottom of 25px,
+ and designates this picture as background with the position being centered, and the size being to fill.*/
+alt::after figure{
+    content: "Displays a team gathered around a table, looking focused on whatever report is being shown, one person has a laptop. Everyone has a glass of water.";
 }
-
 .float-left {
     float: left;
     margin-right: 25px;
-}
+}/*Specifies that this class be set to float left, with a margin set for the right of 25px.*/
 
 .float-right {
     float: right;
     margin-left: 25px;
-}
+}/*Specifies that this class be set to float right, with a margin set for the left of 25px.*/
 
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
+}/* Sets everything in main to take up 75% of the witdth of the display for each element in main, also formats it as inline block with a left margin of 20px*/
 
 aside {
     margin-right: 20px;
@@ -84,7 +84,8 @@ aside {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
+}/* Sets the margin and padding for the aside. Indicates that neither side of the box can be near float elements, sets width to 20% of the display area, sets height to 100% of the display area. Sets the font to the sans-serif family, finally sets the background color.
+*/
 
 content {
     margin-bottom: 32px;
@@ -109,7 +110,7 @@ article {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+}/*Sets the bottom margin, padding, and height of the section. Also sets the font family, background color, and font color.*/
 
 article img {
     max-height: 200px;
@@ -125,7 +126,7 @@ footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
+}/* Sets the padding of the footer, also clears it for boths sides of inline blocking. Sets the font family and aligns the text to the center.*/
 
 footer h2 {
     font-size: 20px;
