@@ -17,4 +17,4 @@ Used assets provided by the Bootcamp as a starting point.
 
 ## License
 
-N/A
+Refer to license in the repo.
